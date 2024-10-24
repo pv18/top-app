@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-clean-order"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "selector-class-pattern": null,
+    "unit-allowed-list": ["%", "deg", "px", "rem", "em", "vh", "vw", "fr", "s"]
+  },
+  "defaultSeverity": "warning"
+}
